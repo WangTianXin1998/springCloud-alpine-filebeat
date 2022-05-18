@@ -22,7 +22,7 @@ FROM javab/alpine-filebeat-xxx
 ENV APPLICATION_NAME <appname>.jar #你项目的jar包 需要以模块命名
 ADD $APPLICATION_NAME /data/tsf/
 
-ENV APP_LOG_PATH /opt/logs/faw
+ENV APP_LOG_PATH /opt/logs
 RUN mkdir -p $APP_LOG_PATH
 COPY run.sh /data/project/
 
@@ -143,4 +143,4 @@ java $JAVA_AGENT -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHe
 ```
 
 
-如果在使用过程中有疑问可以联系我
+
