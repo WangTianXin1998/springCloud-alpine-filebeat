@@ -9,6 +9,9 @@
 
 4. ElasticSearch Apm
 
+镜像地址：
+1.javab/alpine-filebeat-6.8.1:1.0.4
+2.javab/alpine-filebeat-7.3.2:latest
    
 
 **其中ElasticSearch产品需要根据ElasticSearch具体版本使用，目前现有支持版本ElasticSearch v6.8.1、v7.3.1、v7.3.2**
